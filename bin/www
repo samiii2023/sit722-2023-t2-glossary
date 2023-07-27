@@ -5,7 +5,11 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('wel-01:server');
+
+var debug = require('debug')('wel-01:server')
+
+var debug = require('debug')('devops-glossary:server');
+
 var http = require('http');
 
 /**
