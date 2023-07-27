@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+    <title>Glossary</title>
+  </head>
+  <body>
+    <h1>Glossary</h1>
+    <table>
+      <tr>
+        <th>Number</th>
+        <th>Term</th>
+        <th>Definition</th>
+        <th>Resources</th>
+      </tr>
+      <% glossary.forEach(function(item) { %>
+        <tr>
+          <td><%= item.Number %></td>
+          <td><%= item.term %></td>
+          <td><%= item.definition %></td>
+          <td><%= item.sources %></td>
+        </tr>
+      <% }) %>
+    </table>
+  </body>
+</html>
+
+
+
+
+
+
