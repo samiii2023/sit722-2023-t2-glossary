@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "wel-01",
+=======
+  "name": "devops-glossary",
+>>>>>>> 7392992f7599c249177c2050e1e0c056e196352f
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -10,7 +14,10 @@
     "debug": "~2.6.9",
     "ejs": "~2.6.1",
     "express": "~4.16.1",
+<<<<<<< HEAD
     "exprss": "^0.0.1-security",
+=======
+>>>>>>> 7392992f7599c249177c2050e1e0c056e196352f
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1"
   }

@@ -1,6 +1,10 @@
 var express = require('express');
 var router = express.Router();
+<<<<<<< HEAD
 
+=======
+app.set('view engine' , 'ejs')
+>>>>>>> 7392992f7599c249177c2050e1e0c056e196352f
 const glossary = [
   {
     Number:'1',
@@ -45,6 +49,7 @@ const glossary = [
     term: 'Microservices',
   definition: 'The microservices architecture is a remarkable software development method that ideally combines with the service-oriented architecture (SOA). It beautifully organises an application into a magnificent collection of marvellously separate services. The fact that these services are extraordinarily fine-grained makes them even more nimble and versatile for designing new apps.',
   sources: 'www.globalknowledge.com. (n.d.). DevOps Glossary of Terms. [online] Available at: https://www.globalknowledge.com/ca-en/topics/devops/glossary-of-terms/ [Accessed 13 Jul. 2023].'},
+<<<<<<< HEAD
   {
     Number:'11',
     term: 'Agent',
@@ -89,6 +94,11 @@ const glossary = [
   sources: 'www.globalknowledge.com. (n.d.). DevOps Glossary of Terms. [online] Available at: https://www.globalknowledge.com/ca-en/topics/devops/glossary-of-terms/ [Accessed 13 Jul. 2023].'},
   // Add more glossary terms here
 ];
+=======
+  // Add more glossary terms here
+];
+app.set('view engine' , 'ejs')
+>>>>>>> 7392992f7599c249177c2050e1e0c056e196352f
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { glossary: glossary });

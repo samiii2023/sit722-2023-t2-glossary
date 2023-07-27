@@ -5,7 +5,11 @@
  */
 
 var app = require('../app');
+<<<<<<< HEAD
 var debug = require('debug')('wel-01:server');
+=======
+var debug = require('debug')('devops-glossary:server');
+>>>>>>> 7392992f7599c249177c2050e1e0c056e196352f
 var http = require('http');
 
 /**
